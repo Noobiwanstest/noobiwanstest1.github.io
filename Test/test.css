@@ -7,14 +7,6 @@
         margin-top: -285px;*/
 }
 
-.xbox .abxy {
-    position: absolute;
-    width: 153px;
-    height: 156px;
-    top: 192px;
-    left: 488px;
-}
-
 .xbox .button {
     position: absolute;
     background: url(abxymod.png);
@@ -52,18 +44,24 @@
     top: 7px;
 }
 
-.xbox .sticks {
-    position: absolute;
-    width: 371px;
-    height: 196px;
-    top: 239px;
-    left: 144px;
-}
-
 .xbox .stick {
     position: absolute;
     background: url(stickmod.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
+}
+
+.xbox .stick.pressed {
+    background-position: 0 0;
+}
+
+.xbox .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.xbox .stick.right {
+    top: 113px;
+    left: 288px;
 }
